@@ -40,6 +40,7 @@ google.maps.event.addDomListener(window, 'resize', function() {
     map.setCenter(new google.maps.LatLng(40.698832, -111.937880));
 });
 
+
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -54,7 +55,7 @@ function init() {
         disableDefaultUI: false,
         scrollwheel: true,
         draggable: true,
-
+        
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [{
@@ -166,6 +167,7 @@ function init() {
             }]
         }]
     };
+    
 
     // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
